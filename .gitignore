@@ -1,0 +1,79 @@
+# CSV data files (too large for git)
+*.csv
+
+# Result output
+**/result.json
+
+# ── C ──
+c/main
+c/main_debug
+c/main_debug.dSYM/
+c/*.o
+
+# ── C++ ──
+cpp/main
+cpp/*.o
+
+# ── C# ──
+csharp/bin/
+csharp/obj/
+
+# ── D ──
+d/main
+d/*.o
+
+# ── Dart ──
+dart/main
+dart/.dart_tool/
+
+# ── Erlang ──
+erlang/*.beam
+erlang/erl_crash.dump
+
+# ── Gleam ──
+gleam/build/
+gleam/erl_crash.dump
+gleam/manifest.toml
+
+# ── Go ──
+go/main
+
+# ── Java ──
+java/*.class
+
+# ── Kotlin ──
+kotlin/*.jar
+
+# ── Nim ──
+nim/main
+nim/nimcache/
+
+# ── Node.js ──
+node/node_modules/
+
+# ── OCaml ──
+ocaml/main
+ocaml/*.cmi
+ocaml/*.cmx
+ocaml/*.o
+
+# ── Odin ──
+odin/main
+
+# ── Rust ──
+rust/target/
+rust/Cargo.lock
+
+# ── Swift ──
+swift/main
+
+# ── Zig ──
+zig/main
+zig/main.o
+zig/.zig-cache/
+
+# ── OS / Editor files ──
+.DS_Store
+.vscode/
+*.swp
+*~
